@@ -1,19 +1,13 @@
 name = ND D7 Base
 core = 7.x
-description = A simple distro. Based on Build Kit.
+description = A simple multilanguage distro. Based on Build Kit.
 
 ; Core
 dependencies[] = block
-dependencies[] = book
-dependencies[] = contact
 dependencies[] = dblog
-dependencies[] = field_ui
-dependencies[] = file
-dependencies[] = menu
-dependencies[] = path
-dependencies[] = taxonomy
+dependencies[] = locale
 
-; Contrib
+; Developer
 dependencies[] = admin
 dependencies[] = boxes
 dependencies[] = openid
@@ -31,3 +25,4 @@ dependencies[] = views
 dependencies[] = views_ui
 
 ; Custom
+files[] = nd_d7base.profile

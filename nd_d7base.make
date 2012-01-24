@@ -9,7 +9,6 @@ includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.
 ;--------------------
 
 projects[tao][subdir] = contrib
-
 projects[rubik][subdir] = contrib
 
 ;--------------------
@@ -25,6 +24,10 @@ projects[markdown][version] = 1.0
 ; Creates invalid HTML with preformatted blocks.
 ; http://drupal.org/node/684554
 projects[markdown][patch][684554] = http://drupal.org/files/issues/markdown-684554.patch
+
+projects[locale][subdir] = contrib
+projects[locale][version] = 1.0
+
 
 ;--------------------
 ; Custom
