@@ -30,6 +30,10 @@ projects[markdown][patch][684554] = http://drupal.org/files/issues/markdown-6845
 ; Custom
 ;--------------------
 
+translations[] = "it"
+translations[] = "fr"
+translations[] = "de"
+
 ;--------------------
 ; Development
 ;--------------------
