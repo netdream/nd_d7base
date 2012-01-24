@@ -1,6 +1,6 @@
 name = ND D7 Base
 core = 7.x
-description = A simple distro. Based on Build Kit.
+description = ND D7 MFP Distro.
 
 ; Core
 dependencies[] = block
