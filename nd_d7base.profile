@@ -1,10 +1,11 @@
 <?php
+
 /**
-* Implement hook_install().
-*
-* Perform actions to set up the site for this profile.
-*/
-function nd_d7base_install() {
-  include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
-  minimal_install();
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * Allows the profile to alter the site configuration form.
+ */
+function nd_d7base_form_install_configure_form_alter(&$form, $form_state) {
+  // Pre-populate the site name with the server name.
+  $form['site_information']['site_name']['#default_value'] = $_SERVER['SERVER_NAME'];
 }
